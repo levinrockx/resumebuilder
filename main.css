@@ -1,0 +1,218 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+body {
+    width: 230mm;
+}
+header {
+    border-bottom: 2px solid #e9e9e9;
+    margin-bottom: 20px;
+}
+header > h1,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+header > h1 {
+    color: #3498db;
+}
+header > p {
+    font-weight: 500;
+    margin-top: -5px;
+}
+header > ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    list-style: none;
+    margin: 10px 0px 15px;
+    padding: 0px;
+}
+header > ul > li {
+    border-right: 1px solid #666;
+    padding: 0px 10px;
+    font-size: 13px;
+}
+header > ul > li > a {
+    color: #3498db;
+}
+header > ul > li:first-child {
+    padding-left: 0px;
+}
+header > ul > li:last-child {
+    border-right: none;
+}
+section {
+    margin-bottom: 20px;
+}
+section > .section-heading {
+    margin: 0px;
+    padding: 0px;
+    color: #3498db;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#skills > h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 2px;
+    display: flex;
+}
+#skills > h3 > span {
+    font-weight: 600;
+    min-width: 165px;
+}
+#experience > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 15px;
+}
+#experience > ul > li {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#experience > ul > li > .left {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+#experience > ul > li > .left > img {
+    width: 100%;
+}
+#experience > ul > li > .right > h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+#experience > ul > li > .right > h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+#experience > ul > li > .right > p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+#exp-1 {
+    order: 1;
+}
+#exp-2 {
+    order: 3;
+}
+#exp-3 {
+    order: 5;
+}
+#exp-4 {
+    order: 2;
+}
+#exp-5 {
+    order: 4;
+}
+#education > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+#education > ul > li > h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+#education > ul > li > h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+#education > ul > li > p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+#edu-1 {
+    order: 1;
+}
+#edu-2 {
+    order: 3;
+}
+#edu-3 {
+    order: 2;
+}
+#hobbies > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+#hobbies > ul > li {
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+    border: 1px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#personal-information > ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#personal-information > ul > li {
+    display: flex;
+    flex-direction: column;
+}
+#personal-information > ul > li > h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px;
+}
+#personal-information > ul > li > p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+footer > h2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    text-align: right;
+    z-index: 1;
+}
+footer > p {
+    font-size: 13px;
+    text-align: right;
+    font-weight: 600;
+}
